@@ -1,0 +1,32 @@
+.img{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,109,117,1) 0%, rgba(15,119,140,1) 0%);
+    height: 80px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.reg{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border: 5px solid rgba(0, 134, 158, 0.932);
+    padding: 50px;
+    margin-left: 400px;
+    margin-top: 100;
+
+}
+
+.submit{
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    background-color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+   
+</head>
+<body>
+    <!-- <div class="bgimg">knlm</div> -->
+    <p id="countdown"></p>
+    <div class="container">
+    <form onsubmit="fun()" >
+        <div class="a1">General Instructions:Each question carries 2 marks. Submit to go to the next round<br>
+        </div>
+        <div class="a">
+                Q1)Which animal never drinks water in its life?<br>
+        <input type="radio" name="q1" id="1" value="Kangaroo">
+        <label for="a">Kangaroo</label><br>
+        <input type="radio" name="q1" id="2" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q1" id="3" value="Rat">
+        <label for="a">Rat</label><br>
+        <input type="radio" name="q1" id="4" onclick="fun5()" value="Kangaroo Rat">
+        <label for="a" ><span id="a2">Kangaroo Rat</span></label><br>
+    </div>
+    <div class="b">
+        Q2)What is the physical phase of life called?<br>
+        <input type="radio" name="q2" onclick="fun5()" id="5" value="Protoplasm">
+        <label for="a"><span id="a3">Protoplasm</span></label><br>
+        <input type="radio" name="q2" id="6" value="Cytoplasm">
+        <label for="a">Cytoplasm</label><br>
+        <input type="radio" name="q2" id="7" value="Organelles">
+        <label for="a">Organelles</label><br>
+        <input type="radio" name="q2" id="8" value="None Of The Above">
+        <label for="a">None Of The Above</label><br>
+    </div>
+    <div class="c">
+        Q3)The Largest Cell Is<br>
+        <input type="radio" name="q3" id="9" value="Kangaroo">
+        <label for="a">Kangaroo</label><br>
+        <input type="radio" name="q3" id="10" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q3" id="11" value="Rat">
+        <label for="a"><span id="a4">Rat</span></label><br>
+        <input type="radio" name="q3"id="12" value="Kangaroo Rat">
+        <label for="a">Kangaroo Rat</label><br>
+    </div>
+    <div class="d">
+        Q4)What is the physical phase of life called?<br>
+        <input type="radio" name="q4" id="13" value="Kangaroo">
+        <label for="a">Kangaroo</label><br>
+        <input type="radio" name="q4" id="14" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q4" id="15" value="Rat">
+        <label for="a">Rat</label><br>
+        <input type="radio" name="q4" id="16" value="Kangaroo Rat">
+        <label for="a"><span id="a5" >Kangaroo Rat</span></label><br>
+    </div>
+    <div class="e">
+        Q5)What is the physical phase of life called?<br>
+        <input type="radio" name="q5" id="17" value="Kangaroo">
+        <label for="a"><span id="a6">Kangaroo</span></label><br>
+        <input type="radio" name="q5" id="18" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q5"id="19" value="Rat">
+        <label for="a">Rat</label><br>
+        <input type="radio" name="q5" id="20" value="Kangaroo Rat">
+        <label for="a">Kangaroo Rat</label><br>
+    </div>
+    <div class="f">
+        Q6)What is the physical phase of life called?<br>
+        <input type="radio" name="q6" id="21" value="Kangaroo">
+        <label for="a"><span id="a7">Kangaroo</span></label><br>
+        <input type="radio" name="q6" id="22" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q6" id="23" value="Rat">
+        <label for="a">Rat</label><br>
+        <input type="radio" name="q6" id="24" value="Kangaroo Rat">
+        <label for="a">Kangaroo Rat</label><br>
+    </div>
+    <div class="g">
+        Q7)What is the physical phase of life called?<br>
+        <input type="radio" name="q7" id="25" value="Kangaroo">
+        <label for="a">Kangaroo</label><br>
+        <input type="radio" name="q7" id="26" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q7"id="27" value="Rat">
+        <label for="a"><span id="a8">Rat</span></label><br>
+        <input type="radio" name="q7" id="28" value="Kangaroo Rat">
+        <label for="a">Kangaroo Rat</label><br>
+    </div>
+    <div class="h">
+        Q8)What is the physical phase of life called?<br>
+        <input type="radio" name="q8" id="29" value="Kangaroo">
+        <label for="a">Kangaroo</label><br>
+        <input type="radio" name="q8" id="30" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q8" id="31" value="Rat">
+        <label for="a">Rat</label><br>
+        <input type="radio" name="q8" id="32" value="Kangaroo Rat">
+        <label for="a"><span id="a9">Kangaroo Rat</span></label><br>
+    </div>
+    <div class="i">
+        Q9)What is the physical phase of life called?<br>
+        <input type="radio" name="q9" id="33" value="Kangaroo">
+        <label for="a"><span id="a10">Kangaroo</span></label><br>
+        <input type="radio" name="q9" id="34" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q9" id="35" value="Rat">
+        <label for="a">Rat</label><br>
+        <input type="radio" name="q9" id="36" value="Kangaroo Rat">
+        <label for="a">Kangaroo Rat</label><br>
+    </div>
+    <div class="j">
+        Q10)What is the physical phase of life called?<br>
+        <input type="radio" name="q10" id="37" value="Kangaroo">
+        <label for="a"><span id="a11">Kangaroo</span></label><br>
+        <input type="radio" name="q10" id="38" value="Hippopatamus">
+        <label for="a">Hippopatamus</label><br>
+        <input type="radio" name="q10" id="39" value="Rat">
+        <label for="a">Rat</label><br>
+        <input type="radio" name="q10" id="40" value="Kangaroo Rat">
+        <label for="a">Kangaroo Rat</label><br>
+        
+    </div>
+    
+    <div class="sub"><a href="2.html"><button type="submit" value="Submit">Submit</button></a></div>
+   
+    </form>
+</div>
+
+  
+    <script src="1.js"></script>
+</body>
+</html>
